@@ -11,16 +11,29 @@ def convert_to_absolute(number: float) -> float:
 
 def use_prefixes() -> List[str]:
     prefixes, suffixe = 'JKLMNOPQ', 'ack'
+    liste = ""
+    for char in prefixes:
+        liste =  char + suffixe
 
-    return [""]
+    return liste
 
 
 def prime_integer_summation() -> int:
+   m = 0
+    for (i >= 2 and i <= math.sqrt(m)):
+        if m % i != 0
+
+
+
     return 0
 
 
 def factorial(number: int) -> int:
-    return 0
+    number = 0
+    while number -= 0:
+    number *= number
+    
+    return number
 
 
 def use_continue() -> None:
@@ -41,7 +54,7 @@ def main() -> None:
 
     number = 10
     print(f"La factiorelle du nombre {number} est: {factorial(number)}")
-    
+
     print(f"L'affichage de la boucle est:")
     use_continue()
 
