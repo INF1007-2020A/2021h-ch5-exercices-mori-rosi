@@ -13,13 +13,13 @@ def convert_to_absolute(number: float) -> float:
     return number
 
 
-# def use_prefixes() -> List[str]:
-#     prefixes, suffixe = 'JKLMNOPQ', 'ack'
-#     liste = []
-#     for char in prefixes:
-#         liste.append(char + suffixe)
-#
-#     return liste
+def use_prefixes() -> List[str]:
+    prefixes, suffixe = 'JKLMNOPQ', 'ack'
+    liste = []
+    for char in prefixes:
+        liste.append(char + suffixe)
+
+    return liste
 #
 #
 # def prime_integer_summation() -> int:
@@ -60,8 +60,8 @@ def convert_to_absolute(number: float) -> float:
 def main() -> None:
     number = -4.325
     print(f"La valeur absolue du nombre {number} est {convert_to_absolute(number)}")
-    #
-    # print(f"La liste des noms générés avec les préfixes est: {use_prefixes()}")
+
+    print(f"La liste des noms générés avec les préfixes est: {use_prefixes()}")
 
     # print(f"La somme des 100 premiers nombre premier est : {prime_integer_summation()}")
     #
