@@ -37,7 +37,7 @@ def use_prefixes() -> List[str]:
 #3
 def prime_integer_summation() -> int:
     nombre = 6
-    nombre_premier = [2, 3, 6]
+    nombre_premier = [2, 3, 5]
     while len(nombre_premier) < 100:
         premier = True
         for i in range(2, int(nombre ** 0.5) + 1):
